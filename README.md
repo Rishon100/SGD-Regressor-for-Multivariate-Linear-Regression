@@ -8,11 +8,13 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+1.Start 
+2.Data Preparation
+3.Hypothesis Definition 
+4. Cost Function 
+5.Parameter Update Rule 
+6.Iterative Training 
+7.Model evaluation 8.End
 ## Program:
 ```
 /*
@@ -21,6 +23,7 @@ Developed by: V RISHON ANAND
 RegisterNumber:24900460  
 */
 ```
+```.py
 import numpy as np
 from sklearn.datasets import fetch_california_housing
 from sklearn.linear_model import SGDRegressor
